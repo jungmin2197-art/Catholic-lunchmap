@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
       radius:9, fillColor:color, color:"#fff", weight:2, fillOpacity:0.95 
     }).addTo(map);
 
-    const reportUrl = FORM_BASE_URL + "?restaurant=" + encodeURIComponent(r.name);
+    const reportUrl = FORM_BASE_URL + encodeURIComponent(r.name);
     const qrUrl = "https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=" + encodeURIComponent(reportUrl);
 
     const popupHtml = `
