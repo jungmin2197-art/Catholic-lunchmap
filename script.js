@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }).addTo(map);
 
   // 제보 폼 링크 (본인 구글폼 URL로 교체)
-  const FORM_BASE_URL =const FORM_BASE_URL = "https://forms.gle/v6KHRHLukHmbSu2g6?restaurant=";
+  const FORM_BASE_URL = "https://forms.gle/v6KHRHLukHmbSu2g6?restaurant=";
 
   // 식당 정보
   const restaurants = [
