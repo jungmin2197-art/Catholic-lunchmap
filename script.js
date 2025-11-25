@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 혼잡도 기본값
   const defaultLevels = { 
-    "나의유부":"low",
+    "나의유부":"high",
     "손칼국시":"high",
     "메밀꽃":"mid",
     "새우식탁":"low",
